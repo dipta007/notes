@@ -2,7 +2,7 @@
 
 Normalization is used to avoid data redundancy. Data is divided into multiple related tables so that data is not repeated multiple times.
 
-![Database ](database/assets/database1.png)
+![Database ](./assets/database1.png)
 
 ## Problems of Data Redundancy
 
