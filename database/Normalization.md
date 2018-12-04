@@ -28,5 +28,6 @@ For this, we have to breat the one database into two databases, consisting of co
 1. 1st Noraml Form (1NF)
 2. 2nd Normal Form (2NF)
 3. 3rd Normal Form (3NF)
-4. BCNF
+4. Boyce-Codd Normal Form (BCNF / 3.5NF)
+5. 4th Normal Form (4NF)
 
