@@ -1,0 +1,26 @@
+## Docker Compose
+Docker compose is a tool to use in multi-container system. We will use yaml file to configure application services.
+
+### Steps:
+1. Install docker compose (auto installed in mac/windows by installing docker)
+2. Create docker compose file (docker-compose.yml)
+
+#### template:
+
+```
+version: '3.0'
+service:
+    web:
+        image: nginx
+    database:
+        image: redis
+```
+
+3. Check the validity of the yaml config file.  
+   docker-compose config
+4. Run docker compose yaml file  
+   docker-compose up -d
+5. Bring down application
+   docker-compose down
+6. To scale the docker images
+   docker-compose up -d --scale database=4

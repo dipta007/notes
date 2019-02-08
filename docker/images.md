@@ -1,0 +1,27 @@
+## Docker image
+Docker image is template of the system
+
+## Registries
+Docker images are stored in registries.
+
+Docker can build image by reading from `dockerfile`
+
+## Comands:
+1. docker images --help  
+   Get the help for command `docker images`
+2. docker images -a  
+   List all the images of docker
+3. docker pull `image-name`  
+   Pull the image from the online docker hub
+4. docker images -q  
+   Show all the ids of docker images
+5. docker run `image-name`  
+   Create a container from `image`
+6. docker run -it `image-name`  
+   To run the docker container in interactive mode
+7. docker run --name `my-name` `image-name`  
+   To run the container with my given `name`
+8. docker rmi `image-id`
+   Remove the docker image if its not connected
+9. docker rmi -f `image-id`
+   Remove the docker image even if its connected
