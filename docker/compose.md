@@ -17,10 +17,10 @@ service:
 ```
 
 3. Check the validity of the yaml config file.  
-   docker-compose config
-4. Run docker compose yaml file  
-   docker-compose up -d
-5. Bring down application
-   docker-compose down
-6. To scale the docker images
-   docker-compose up -d --scale database=4
+   `docker-compose config`
+4. Run docker compose yaml file    
+   `docker-compose up -d`
+5. Bring down application  
+   `docker-compose down`
+6. To scale the docker images  
+   `docker-compose up -d --scale database=4`
