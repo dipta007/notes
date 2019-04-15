@@ -14,3 +14,8 @@
 * kubectl set image `object-type`/`object-name` `container-name` = `image-name`
 * eval $(minikube docker-env)  
   Temporarily connect to the docker server in VM
+
+
+
+# Cheat Sheet
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
